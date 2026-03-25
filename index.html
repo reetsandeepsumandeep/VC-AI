@@ -13,172 +13,250 @@
         ul { margin: 10px 0; }
         .date { color: #888; font-style: italic; }
         .contact { background: #f5f5f5; padding: 15px; border-radius: 5px; margin-top: 30px; }
+        .highlight { background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0; }
     </style>
 </head>
 <body>
     <h1>VC AI - Content Generator</h1>
-    <p class="date">Effective Date: February 18, 2026<br>Last Updated: February 18, 2026</p>
+    <p class="date">Effective Date: March 25, 2026<br>Last Updated: March 25, 2026</p>
 
     <h2>1. Introduction</h2>
     <p>Welcome to VC AI ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application VC AI - Content Generator (the "App").</p>
-    <p>Please read this Privacy Policy carefully. By using the App, you agree to the collection and use of information in accordance with this policy.</p>
+    <p>By using the App, you agree to the collection and use of information in accordance with this policy.</p>
 
     <h2>2. Information We Collect</h2>
-   
-    <h3>2.1 Automatically Collected Information</h3>
-    <p>When you use our App, we may automatically collect certain information, including:</p>
+
+    <h3>2.1 User Profile Information (Onboarding)</h3>
+    <div class="highlight">
+        <strong>New:</strong> We now collect profile information during onboarding:
+    </div>
     <ul>
-        <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers</li>
-        <li><strong>Usage Data:</strong> How you interact with the App, features used, time spent</li>
+        <li><strong>Personal Info:</strong> First name, last name</li>
+        <li><strong>Creator Goals:</strong> Your selected goal (Go Viral, Grow Audience, Make Money, Build Brand, Just for Fun)</li>
+        <li><strong>Platform Preferences:</strong> Target platform (YouTube, Instagram, Reels)</li>
+        <li><strong>Content Type:</strong> Your niche (Entertainment, Educational, Vlogging, Tech, Gaming, Fashion, Food, Finance, Health)</li>
+        <li><strong>Language Preference:</strong> English, Hindi, or Hinglish</li>
+    </ul>
+
+    <h3>2.2 App Usage & Generated Content</h3>
+    <ul>
+        <li><strong>Content Generation Data:</strong> Topics you enter for viral content generation</li>
+        <li><strong>Generated Content:</strong> AI-generated captions, hashtags, keywords, scripts stored locally</li>
+        <li><strong>Generation History:</strong> History of all generated content with timestamps</li>
+        <li><strong>Usage Limits:</strong> Daily generation count and limits tracking</li>
+        <li><strong>Category Selection:</strong> Which platforms you use most</li>
+    </ul>
+
+    <h3>2.3 Automatically Collected Information</h3>
+    <ul>
+        <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers, hardware model</li>
+        <li><strong>App Usage Data:</strong> Features used, time spent, button clicks, screen views</li>
         <li><strong>Advertising ID:</strong> Google Advertising ID for personalized ads</li>
-        <li><strong>IP Address:</strong> For analytics and security purposes</li>
-        <li><strong>App Performance Data:</strong> Crash logs, error reports</li>
+        <li><strong>IP Address:</strong> For analytics, security, and location-based services</li>
+        <li><strong>App Performance Data:</strong> Crash logs, error reports, performance metrics</li>
+        <li><strong>Session Data:</strong> App open/close times, session duration</li>
     </ul>
 
-    <h3>2.2 User Input Data</h3>
-    <p>The App allows you to enter topics for content generation. Please note:</p>
+    <h3>2.4 Firebase & Cloud Data</h3>
+    <div class="highlight">
+        <strong>New:</strong> We use Firebase for:
+    </div>
     <ul>
-        <li>Topics you enter are sent to our AI service providers (Google Gemini/Groq) for processing</li>
-        <li>We do not store your input topics on our servers permanently</li>
-        <li>Generated content is stored locally on your device only</li>
+        <li><strong>User Authentication:</strong> Anonymous user ID generated for each device</li>
+        <li><strong>Cloud Storage:</strong> Generated content synced to cloud (optional)</li>
+        <li><strong>Usage Tracking:</strong> Daily generation limits and PRO status</li>
+        <li><strong>Analytics:</strong> User behavior, feature popularity, retention metrics</li>
+        <li><strong>Crash Reporting:</strong> Firebase Crashlytics for bug fixes</li>
+        <li><strong>Push Notifications:</strong> FCM tokens for sending notifications about trending content</li>
+        <li><strong>Remote Configuration:</strong> App settings managed remotely</li>
     </ul>
 
-    <h3>2.3 Information from Third Parties</h3>
-    <p>We receive information from third-party services integrated into the App:</p>
+    <h3>2.5 Third-Party AI Services</h3>
+    <div class="highlight">
+        <strong>Updated:</strong> Data sent to AI providers:
+    </div>
     <ul>
-        <li>Google AdMob (advertising data)</li>
-        <li>Google Firebase (analytics and crash reporting)</li>
-        <li>AI service providers (Google Gemini, Groq)</li>
+        <li><strong>Google Gemini AI:</strong> Your input topics, platform selection, language preference</li>
+        <li><strong>Groq API:</strong> Alternative AI processing for content generation</li>
+        <li><strong>Data Sent:</strong> Topic + Platform + Language + Content Type to generate viral content</li>
+        <li><strong>Note:</strong> Do not enter sensitive personal information in topics</li>
+    </ul>
+
+    <h3>2.6 Advertising Data (AdMob)</h3>
+    <ul>
+        <li><strong>Advertising ID:</strong> Device's GAID for personalized ads</li>
+        <li><strong>Ad Interactions:</strong> Cicks, views, engagement metrics</li>
+        <li><strong>Ad Preferences:</strong> User ad personalization settings</li>
+        <li><strong>Demographics:</strong> Approximate age/gender for ad targeting (if available)</li>
     </ul>
 
     <h2>3. How We Use Your Information</h2>
-    <p>We use the collected information for the following purposes:</p>
+
+    <h3>3.1 Primary Uses</h3>
     <ul>
-        <li><strong>Provide Services:</strong> To generate content based on your inputs</li>
-        <li><strong>Advertising:</strong> To display personalized advertisements through Google AdMob</li>
-        <li><strong>Analytics:</strong> To understand how users interact with our App and improve it</li>
-        <li><strong>App Improvement:</strong> To fix bugs, improve performance, and add new features</li>
-        <li><strong>Security:</strong> To protect against fraud and unauthorized access</li>
-        <li><strong>Legal Compliance:</strong> To comply with applicable laws and regulations</li>
+        <li><strong>Content Generation:</strong> Process your topics through AI to generate viral content</li>
+        <li><strong>Personalization:</strong> Tailor content suggestions based on your profile and history</li>
+        <li><strong>Usage Management:</strong> Track daily limits and manage PRO subscriptions</li>
+        <li><strong>Trending Content:</strong> Show personalized trending topics based on your niche</li>
     </ul>
 
-    <h2>4. Advertising and Third-Party Services</h2>
-   
-    <h3>4.1 Google AdMob</h3>
-    <p>We use Google AdMob to display advertisements in our App. AdMob may collect and use:</p>
+    <h3>3.2 Analytics & Improvement</h3>
     <ul>
-        <li>Your device's advertising identifier</li>
-        <li>Device information (model, OS version)</li>
-        <li>IP address</li>
-        <li>App usage data related to ads</li>
-    </ul>
-    <p>For more information, please review <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
-
-    <h3>4.2 Firebase Services</h3>
-    <p>We use Google Firebase for:</p>
-    <ul>
-        <li><strong>Analytics:</strong> Understanding user behavior and App performance</li>
-        <li><strong>Crashlytics:</strong> Collecting crash reports to fix bugs</li>
-        <li><strong>Remote Config:</strong> Managing App settings</li>
+        <li><strong>Performance Analysis:</strong> Understand which features users love</li>
+        <li><strong>Bug Fixing:</strong> Use crash logs to improve app stability</li>
+        <li><strong>Feature Development:</strong> Prioritize new features based on usage data</li>
+        <li><strong>A/B Testing:</strong> Test different UI/UX variations</li>
     </ul>
 
-    <h3>4.3 AI Service Providers</h3>
-    <p>Content generation is powered by:</p>
+    <h3>3.3 Advertising</h3>
     <ul>
-        <li><strong>Google Gemini:</strong> For generating captions, hashtags, and keywords</li>
-        <li><strong>Groq:</strong> Alternative AI service provider</li>
-    </ul>
-    <p>Your input topics are transmitted to these providers for processing. Please do not enter sensitive personal information.</p>
-
-    <h2>5. Data Sharing and Disclosure</h2>
-    <p>We do not sell your personal information. We may share information in the following circumstances:</p>
-    <ul>
-        <li><strong>Service Providers:</strong> With trusted third parties who help us operate the App (AdMob, Firebase, AI providers)</li>
-        <li><strong>Legal Requirements:</strong> When required by law, court order, or government request</li>
-        <li><strong>Business Transfers:</strong> In case of merger, acquisition, or sale of assets</li>
-        <li><strong>Protection:</strong> To protect our rights, property, or safety</li>
+        <li><strong>Personalized Ads:</strong> Show relevant ads based on your profile</li>
+        <li><strong>Ad Performance:</strong> Measure ad effectiveness</li>
+        <li><strong>Revenue:</strong> Support free version through advertising</li>
     </ul>
 
-    <h2>6. Data Security</h2>
-    <p>We implement reasonable security measures to protect your information:</p>
+    <h3>3.4 Communication</h3>
     <ul>
-        <li>All data transmissions are encrypted using HTTPS/SSL</li>
-        <li>We limit access to personal information to authorized personnel only</li>
-        <li>We regularly review and update our security practices</li>
+        <li><strong>Push Notifications:</strong> Alert about trending topics, new features, daily reminders</li>
+        <li><strong>Email:</strong> Contact you for support or important updates (if provided)</li>
     </ul>
-    <p>However, no method of electronic storage is 100% secure. We cannot guarantee absolute security.</p>
 
-    <h2>7. Data Retention</h2>
+    <h2>4. Data Sharing & Third Parties</h2>
+
+    <h3>4.1 Service Providers</h3>
+    <table border="1" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+        <tr style="background: #f5f5f5;">
+            <th>Service</th>
+            <th>Purpose</th>
+            <th>Data Shared</th>
+        </tr>
+        <tr>
+            <td>Google Firebase</td>
+            <td>Analytics, Crash Reporting, Cloud Storage, Push Notifications</td>
+            <td>User ID, Usage data, Crash logs, FCM token, Generated content</td>
+        </tr>
+        <tr>
+            <td>Google AdMob</td>
+            <td>Display advertisements</td>
+            <td>Advertising ID, Device info, Ad interactions</td>
+        </tr>
+        <tr>
+            <td>Google Gemini AI</td>
+            <td>Content generation</td>
+            <td>Topics, Platform, Language, Content type</td>
+        </tr>
+        <tr>
+            <td>Groq</td>
+            <td>Alternative AI processing</td>
+            <td>Topics, Platform, Language</td>
+        </tr>
+    </table>
+
+    <h3>4.2 Legal & Safety</h3>
     <ul>
-        <li><strong>Analytics Data:</strong> Retained for up to 14 months</li>
-        <li><strong>Crash Logs:</strong> Retained for up to 90 days</li>
-        <li><strong>Generated Content:</strong> Stored locally on your device until you delete it</li>
-        <li><strong>Ad Data:</strong> Managed by Google AdMob according to their policies</li>
+        <li><strong>Legal Compliance:</strong> When required by law or government request</li>
+        <li><strong>Safety:</strong> To protect rights, property, or safety of users/public</li>
+        <li><strong>Business Transfers:</strong> In case of merger, acquisition, or asset sale</li>
+    </ul>
+
+    <h2>5. Data Storage & Security</h2>
+
+    <h3>5.1 Storage Locations</h3>
+    <ul>
+        <li><strong>Local Storage:</strong> Generated content, user preferences stored on device</li>
+        <li><strong>Firebase Cloud:</strong> User profile, usage data, content history (encrypted)</li>
+        <li><strong>AI Processing:</strong> Topics processed in real-time, not permanently stored by AI providers</li>
+    </ul>
+
+    <h3>5.2 Security Measures</h3>
+    <ul>
+        <li>All network requests use HTTPS/SSL encryption</li>
+        <li>Firebase security rules protect user data</li>
+        <li>Anonymous user IDs - no direct personal identification</li>
+        <li>Regular security audits and updates</li>
+    </ul>
+
+    <h2>6. Data Retention</h2>
+    <ul>
+        <li><strong>Generated Content:</strong> Stored locally until app is uninstalled or user deletes</li>
+        <li><strong>Cloud Backup:</strong> Retained while account is active, deleted 30 days after account deletion</li>
+        <li><strong>Analytics Data:</strong> Firebase retains for 14 months</li>
+        <li><strong>Crash Logs:</strong> Retained for 90 days</li>
+        <li><strong>Ad Data:</strong> Managed by Google AdMob per their policy</li>
+    </ul>
+
+    <h2>7. Your Rights & Controls</h2>
+
+    <h3>7.1 Access & Download</h3>
+    <ul>
+        <li>View all your generated content in app</li>
+        <li>Export your content history</li>
+        <li>Request data copy via email</li>
+    </ul>
+
+    <h3>7.2 Delete Data</h3>
+    <ul>
+        <li><strong>Clear History:</strong> Delete all generated content from device and cloud</li>
+        <li><strong>Reset Profile:</strong> Clear onboarding data and preferences</li>
+        <li><strong>Delete Account:</strong> Complete data removal from our servers</li>
+    </ul>
+
+    <h3>7.3 Ad Controls</h3>
+    <ul>
+        <li><strong>Opt Out:</strong> Android Settings → Google → Ads → Opt out of Ads Personalization</li>
+        <li><strong>Reset ID:</strong> Reset Advertising ID anytime</li>
+        <li><strong>PRO Version:</strong> Purchase PRO to remove ads completely</li>
+    </ul>
+
+    <h3>7.4 Notification Controls</h3>
+    <ul>
+        <li>Disable push notifications in device settings</li>
+        <li>Opt-out of promotional notifications in app settings</li>
     </ul>
 
     <h2>8. Children's Privacy</h2>
-    <p>Our App is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
+    <p>The App is not intended for children under 13. We do not knowingly collect data from children under 13. Parents can contact us to delete any inadvertently collected data.</p>
 
-    <h2>9. Your Rights and Choices</h2>
-    <p>You have the following rights regarding your data:</p>
+    <h2>9. International Users</h2>
+    <p>Data is processed in India and on Google servers (US/EU/Asia). By using the app, you consent to data transfer to these locations.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this policy. Changes will be:</p>
     <ul>
-        <li><strong>Opt-out of Personalized Ads:</strong> You can reset your Advertising ID or opt out of personalized ads in your device settings</li>
-        <li><strong>Data Access:</strong> You can request information about the data we hold about you</li>
-        <li><strong>Data Deletion:</strong> You can request deletion of your data</li>
-        <li><strong>App Uninstall:</strong> You can stop all data collection by uninstalling the App</li>
-    </ul>
-    <p><strong>How to Opt Out:</strong><br>
-    Android: Settings > Google > Ads > Reset advertising ID or Opt out of Ads Personalization</p>
-
-    <h2>10. International Data Transfers</h2>
-    <p>Your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws. By using the App, you consent to these transfers.</p>
-
-    <h2>11. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
-    <ul>
-        <li>Posting the new Privacy Policy on this page</li>
-        <li>Updating the "Effective Date" at the top</li>
-        <li>Notifying you through the App or via email if significant changes are made</li>
+        <li>Posted in app and on website</li>
+        <li>Notified via push notification for major changes</li>
+        <li>Effective date updated at top of policy</li>
     </ul>
 
-    <h2>12. Third-Party Links and Services</h2>
-    <p>Our App may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies.</p>
+    <h2>11. Legal Rights by Region</h2>
 
-    <h2>13. California Privacy Rights (CCPA)</h2>
-    <p>If you are a California resident, you have the following rights:</p>
+    <h3>GDPR (EU Users)</h3>
     <ul>
-        <li>Right to know what personal information is collected</li>
-        <li>Right to know if personal information is sold or disclosed (we do not sell personal information)</li>
-        <li>Right to say no to the sale of personal information</li>
-        <li>Right to access your personal information</li>
-        <li>Right to equal service and price</li>
-    </ul>
-
-    <h2>14. GDPR Compliance (For EU Users)</h2>
-    <p>If you are located in the European Union, you have the following rights under GDPR:</p>
-    <ul>
-        <li>Right to access your personal data</li>
-        <li>Right to rectification of inaccurate data</li>
-        <li>Right to erasure ("right to be forgotten")</li>
-        <li>Right to restrict processing</li>
+        <li>Right to access, rectify, erase, restrict processing</li>
         <li>Right to data portability</li>
         <li>Right to object to processing</li>
         <li>Right to withdraw consent</li>
     </ul>
-    <p>To exercise these rights, please contact us using the information below.</p>
+
+    <h3>CCPA (California Users)</h3>
+    <ul>
+        <li>Right to know what data is collected</li>
+        <li>Right to delete personal information</li>
+        <li>Right to opt-out of sale (we do not sell data)</li>
+        <li>Right to non-discrimination</li>
+    </ul>
 
     <div class="contact">
-        <h2>15. Contact Us</h2>
-        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+        <h2>12. Contact Us</h2>
+        <p>For questions, data requests, or privacy concerns:</p>
         <p><strong>Email:</strong> Freefiretv581@gmail.com<br>
-        <strong>Developer Name:</strong> Sandeep K Apps<br>
-        <strong>Address:</strong> Your Hart</p>
-        <p>We will respond to your request within 30 days.</p>
+        <strong>Developer:</strong> Sandeep K Apps<br>
+        <strong>Response Time:</strong> Within 30 days</p>
     </div>
 
-    <h2>16. Consent</h2>
-    <p>By downloading, installing, and using VC AI Content Generator, you consent to the collection, use, and sharing of your information as described in this Privacy Policy.</p>
-   
+    <h2>13. Consent</h2>
+    <p>By using VC AI Content Generator, you consent to this Privacy Policy and data practices described herein.</p>
+
     <p style="margin-top: 40px; color: #888; text-align: center;">Thank you for using VC AI Content Generator!</p>
 </body>
 </html>
